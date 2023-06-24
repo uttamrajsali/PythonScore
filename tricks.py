@@ -1,4 +1,31 @@
-# Print a Key if value is 112
+##########
+
+a = []
+for i in range(0,9):
+  a.append(i)
+
+print(len(a))
+
+stri=""
+
+a=stri.split()
+print(a)
+
+if len(a) > 0:
+  print("bigger strng")
+else:
+  print("single world")
+
+#test multi line string
+my_string = "test \
+mutli line \
+string"
+
+print(my_string)
+
+
+
+############## Print a Key if value is 112
 
 my_dict = {"Java": 100, "Python": 112, "C": 11}
 value = 112
